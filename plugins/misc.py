@@ -81,25 +81,25 @@ async def process_buy(bot, update):
     data = update.data.split("_")[-1]
     if data == "qr":
         # send photo
-        photo_url = "https://graph.org/file/db1daea93ee48ce96b809.jpg"  # replace with your QR image URL
+        photo_url = "https://telegra.ph/file/55432e3caf49188dc5d30.jpg"  # replace with your QR image URL
         await bot.send_photo(chat_id=update.message.chat.id, photo=photo_url)
-        text = "Pay 40 Ruppe and then send a screenshot of the payment below, and also provide your group ID so I can verify After Sending Verification Request."
+        text = "Pay 10 Ruppe and then send a screenshot of the payment below, and also provide your group ID so I can verify After Sending Verification Request."
         keyboard = InlineKeyboardMarkup([
-            [InlineKeyboardButton("Send Screenshot", url=f'https://t.me/cyniteofficial')]
+            [InlineKeyboardButton("Send Screenshot", url=f'https://t.me/Abdul88822)]
         ])
         await bot.send_message(chat_id=update.message.chat.id, text=text, reply_markup=keyboard)
     elif data == "upi":
         # send message and button
-        text = "`jaswindersingh42794@oksbi`\nPay 40 Ruppe and then send a screenshot of the payment below, and also provide your group ID After Sending Verification Request. can verify the payment."
+        text = "`sorry`\nPay 10 Ruppe and then send a screenshot of the payment below, and also provide your group ID After Sending Verification Request. can verify the payment."
         keyboard = InlineKeyboardMarkup([
-            [InlineKeyboardButton("Send Screenshot", url=f'https://t.me/cyniteofficial')]
+            [InlineKeyboardButton("Send Screenshot", url=f'https://t.me/Abdul88822')]
         ])
         await bot.send_message(chat_id=update.message.chat.id, text=text, reply_markup=keyboard)
     elif data == "mdisk":
         # send message and button
-        text = "Send 1000 Mdisk Views To `1883570185` and then send a Message To The Bot Owner."
+        text = "Send 500 Mdisk Views To `5851749250` and then send a Message To The Bot Owner."
         keyboard = InlineKeyboardMarkup([
-            [InlineKeyboardButton("Message", url=f'https://t.me/cyniteofficial')]
+            [InlineKeyboardButton("Message", url=f'https://t.me/Abdul88822')]
         ])
         await bot.send_message(chat_id=update.message.chat.id, text=text, reply_markup=keyboard)
 
@@ -115,7 +115,7 @@ async def leave_a_chat(bot, message):
         chat = chat
     try:
         buttons = [[
-            InlineKeyboardButton('𝚂𝚄𝙿𝙿𝙾𝚁𝚃', url=f'https://t.me/Cyniteofficial')
+            InlineKeyboardButton('𝚂𝚄𝙿𝙿𝙾𝚁𝚃', url=f'https://t.me/Abdul88822')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
