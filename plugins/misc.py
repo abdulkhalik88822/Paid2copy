@@ -85,7 +85,7 @@ async def process_buy(bot, update):
         await bot.send_photo(chat_id=update.message.chat.id, photo=photo_url)
         text = "Pay 10 Ruppe and then send a screenshot of the payment below, and also provide your group ID so I can verify After Sending Verification Request."
         keyboard = InlineKeyboardMarkup([
-            [InlineKeyboardButton("Send Screenshot", url=f'https://t.me/Abdul88822)]
+            [InlineKeyboardButton("Send Screenshot", url=f'https://t.me/Abdul88822')]
         ])
         await bot.send_message(chat_id=update.message.chat.id, text=text, reply_markup=keyboard)
     elif data == "upi":
