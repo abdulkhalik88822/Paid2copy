@@ -19,6 +19,9 @@ It Will Cost 10₹ Per Month
 Remove a Channel with - /disconnect-100xxxxxxxxxxx
 this will help you to remove a indexed channel from your group.
 
+Commands
+/fsub - enable force sub (works only in groups)
+/nofsub - disable force sub (works only in groups)
 Get connected channels list with - /connections"""
 
     BUY = """How do you want to pay?"""
