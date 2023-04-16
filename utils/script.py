@@ -11,7 +11,7 @@ First Buy Subscription With - /buy and Then
 It Will Cost 10₹ Per Month
 
 - Add me in your group & channel with all permissions. 
-- Send /verify in group & wait for It To Accept Or Directly Contact To Owner After Request @Abdul88822.
+- Send /verify in group & wait for It To Accept Or Directly Contact To Owner After Request @Abdul_khalik_8.
 - After verification send /connect YourChannelID
 - Example : /connect -100xxxxxxxxxx
 - Done ✅. <b><I>Enjoy 💜❤</I></b> )
